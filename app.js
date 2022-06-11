@@ -11,13 +11,12 @@ const app = express();
 var refreshTokensDB = [];		// to store the refresh tokens when they are generated.
 
 app.use(express.json());
-
 app.get('/', function (req, res) {
 	res.json({
 	  type: 'get',
 	  number: 1,
-	  nama: 'Okyza Maherdy Prabowo',
-	  npm: '33220025'
+	  nama: 'Reksa Syailendra Al-habsi',
+	  npm: '2042009'
 	});
   })
 
